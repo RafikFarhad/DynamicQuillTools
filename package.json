@@ -1,25 +1,27 @@
 {
-  "name": "DynamicQuillTools",
-  "version": "0.0.1",
-  "description": "Dynamic Quill toolbar helper"
+  "name": "dynamic-quill-tools",
+  "version": "1.0.0",
+  "description": "dynamic quill toolbar helper class",
+  "main": "DynamicQuillTools.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trackrevenue/DynamicQuillTools.git"
+    "url": "git+https://github.com/trackrevenue/DynamicQuillTools.git"
   },
   "keywords": [
     "quill",
-    "toolbar",
-    "dynamic"
+    "dynamic",
+    "toolbar"
   ],
-  "scripts": {
-    "dev": "gulp dev",
-    "prod": "gulp prod"
-  },
   "author": "",
-  "license": "",
-  "devDependencies": {
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/trackrevenue/DynamicQuillTools/issues"
   },
-  "dependencies": {
-  }
+  "homepage": "https://github.com/trackrevenue/DynamicQuillTools#readme"
 }
-
