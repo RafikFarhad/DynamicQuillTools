@@ -1,0 +1,25 @@
+{
+  "name": "DynamicQuillTools",
+  "version": "0.0.1",
+  "description": "Dynamic Quill toolbar helper"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trackrevenue/DynamicQuillTools.git"
+  },
+  "keywords": [
+    "quill",
+    "toolbar",
+    "dynamic"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "prod": "gulp prod"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
+
