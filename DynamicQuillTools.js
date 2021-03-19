@@ -224,8 +224,8 @@ class QuillToolbarButton extends QuillToolbarItem {
     }
 }
 
-export default {
-     QuillToolbarItem,
-     QuillToolbarDropDown,
-     QuillToolbarButton
+module.exports = {
+  QuillToolbarItem,
+  QuillToolbarDropDown,
+  QuillToolbarButton
 }
