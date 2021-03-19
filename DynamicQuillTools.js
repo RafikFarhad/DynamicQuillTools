@@ -182,7 +182,8 @@ class QuillToolbarButton extends QuillToolbarItem {
         me.qlButton.className = `ql-${me.id}`
         me.setValue(me.options.value)
         me.setIcon(me.options.icon)
-        me.qlButton.onclick = function() {
+        me.qlButton.onclick = function(evt) {
+            evt.preventDefault();
             me.onClick(me.quill)
         }
         me.qlFormatsEl.appendChild(me.qlButton)
